@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #fff0f5;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: #ff4d6d;
+  color: white;
+  padding: 15px;
+}
+
+.productos button {
+  margin: 5px;
+  padding: 10px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.pagar {
+  margin-top: 20px;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pago-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}

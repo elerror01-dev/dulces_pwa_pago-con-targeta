@@ -1,0 +1,8 @@
+{
+  "name": "Dulces Magic",
+  "short_name": "Dulces",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff4d6d"
+}
