@@ -68,6 +68,9 @@ const stripe = Stripe("pk_live_51T4M20FgtNqAHTMVi02lvSbsw64sZJwD0o6ZUfzfDCTLcDjQ
     });
 }
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js");
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+    .then(() => console.log('Service Worker registrado'))
+    .catch(err => console.error('Error SW:', err));
+
 }
